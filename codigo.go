@@ -8,8 +8,10 @@ import (
 func main() {
 	var n, d, contMax, result, copos int
 
-	fmt.Scanf("%d%d", &n, &d)
+	//fmt.Scanf("%d%d", &n, &d)
+	fmt.Scan(&n, &d)
 	list := make([]int, n)
+	fmt.Scanf("%d", list[0])
 
 	for i := 0; i < n; i++ {
 		fmt.Scanf("%d", &list[i])
@@ -24,8 +26,9 @@ func main() {
 	}
 	fmt.Println()
 
-	// passa pela lista
+	// passa pela lista de copos de chambinho
 	for i := 0; i < n; i++ {
+		//atribui zero a quantidade de copos e contador de chambinho
 		copos = 0
 		contMax = 0
 		fmt.Print("Sequência ", i+1, ": ")
