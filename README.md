@@ -1,3 +1,10 @@
+Como rodar o programa?
+1. Instale Go usando o guia no site https://go.dev/doc/install
+2. acesse o repositório do projeto pelo shell/cmd/editor de código-fonte escolhido
+3. digite o comando "go run ." para executar o arquivo codigo.go
+4. digite a entrada do exercicio
+
+Exercicio:
 C de Chambinho
 
 Leo ( conhecido pelos amigos de Chambinho)  está numa festa do gremio  estudantil do IFSP - SaLto  e pretende se divertir um pouco tomando o máximo de copos de chambinho que conseguir.
@@ -30,3 +37,16 @@ Informações Sobre Pontuação
 Para um conjunto valendo 20 pontos: N≤10^2≤eD≤10^5
 Para um conjunto valendo 40 pontos: N≤5∗10^3eD≤10^5
 Para um conjunto valendo 40 pontos: 10^5
+
+Entradas de teste:
+5 10
+2 4 3 2 3
+resultado esperado: 3
+
+10 20
+2 5 4 2 6 3 7 7 6 4
+resultado esperado: 5
+
+7 10
+2 2 2 2 4 2 4
+resultado esperado: 4
